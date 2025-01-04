@@ -65,13 +65,30 @@ button{
     background: #3882F6;
     color:white;
 }
+.img{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    align-items: center;
+}
 
-.img-card{
+.imgcard{
+    background:rgba(220, 220, 220, 0.547);
+    height:150px;
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:20px;
+    color:white;
+}
+
+/* .img-card{
     background:gray;
     height:250px;
     width:300px;
 
-}
+} */
 
 /* Random Information */
 .random{
@@ -105,7 +122,7 @@ button{
     margin: 8px;
     padding:10px;      
 }
-
+/*   Quote section */
 .quote-part{
     background:#e5e7eb;
     padding: 120px 300px;
@@ -122,6 +139,7 @@ button{
     text-align: right;
     
 }
+/*SignUp Section  */
 .signup-section{
     padding: 80px 150px;
 }
@@ -150,6 +168,13 @@ button{
     border-radius:10px;
 }
 
+.actioncall-text{
+   font-weight: lighter;
+   color:whitesmoke; 
+}
+
+
+/*Footer section  */
 .footer{
     display:flex;
     justify-content: center;
@@ -158,26 +183,5 @@ button{
     color:white;
     height:100px;
     
-}
-.actioncall-text{
-   font-weight: lighter;
-   color:whitesmoke; 
-}
-.img{
-    display:flex;
-    justify-content:space-around;
-    padding:20px;
-    align-items: center;
-}
-
-.imgcard{
-    background:rgba(220, 220, 220, 0.547);
-    height:150px;
-    width:400px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding:20px;
-    color:white;
 }
 
